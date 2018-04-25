@@ -33,3 +33,16 @@ body{
   text-decoration: none;
   padding-right: 15px;
 }
+#showcase{
+  background-image: url(../images/showcase.jpg);
+  background-position: center right;
+  min-height: 300px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+#showcase h1{
+  color: #fff;
+  font-size: 30px;
+  line-height: 1.6em;
+  padding-top: 30px;
+}
