@@ -1,15 +1,13 @@
 body{
   background-color: #f4f4f4;
-  color:#555;
-
-  font: normal 16px Arial, helvetica, sans-serif;
+  color: #555;
+  font: normal 16px Arial, helvetica,sans-serif;
   line-height: 1.6em;
-
-  margin:0;
+  margin: 0;
 }
 .container{
-  width: 500px;
-  margin:auto;
+  width: 80%;
+  margin: auto;
 }
 .box-1{
   background-color: #333;
