@@ -37,7 +37,7 @@ body{
   background-image: url(../images/NoahAimee.jpg);
   /* background-position: center center; */
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   /* min-height: 300px; */
   margin-bottom: 30px;
   text-align: center;
