@@ -7,7 +7,6 @@
 }
 
 /* this is a comment */
-
 .box-1 {
   background-color: green;
   color: yellow;
@@ -33,4 +32,19 @@
   text-transform: uppercase;
   letter-spacing: 0.2em;
   letter-spacing: 1em;
+}
+
+.my-list li:first-child {
+  background: red;
+}
+
+.my-list li:last-child {
+  background: blue;
+}
+
+.my-list li:nth-child(even) {
+  background: yellow;
+}
+.my-list{
+  padding-left: 16px;
 }
