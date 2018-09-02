@@ -1,50 +1,72 @@
-.body {
+body {
   background-color: #f4f4f4;
-  color: #555;
-  font: normal 16px Arial, helvetica, sans-serif;
-  line-height: 1.6em;
+  color: #333;
+  font: normal 16px Arial, Helvetica, sans-serif;
   margin: 0;
-}
-
-/* this is a comment */
-.box-1 {
-  background-color: green;
-  color: yellow;
-  border: 10px red solid;
+  line-height: 1.6em;
 }
 
 .container {
   width: 80%;
   margin: auto;
+  overflow: hidden;
 }
 
-.box-2 {
+#main-header {
+  background-color: coral;
+  color: #fff;
+}
+
+#navbar {
   background-color: #333;
   color: #fff;
-  border: 10px #fff dotted;
 }
 
-.box-2 h1 {
-  font-family: tahoma;
-  font-weight: 100;
-  font-style: italic;
-  text-decoration: underline;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  letter-spacing: 1em;
+#navbar ul {
+  list-style: none;
+  padding: 0;
 }
 
-.my-list li:first-child {
-  background: red;
+#navbar li {
+  display: inline;
 }
 
-.my-list li:last-child {
-  background: blue;
+#navbar a {
+  text-decoration: none;
+  padding-right: 15px;
+  font-size: 18px;
+  color: #fff;
+  
+}
+#showcase {
+  
+
 }
 
-.my-list li:nth-child(even) {
-  background: yellow;
+
+.containero {
+  height: 100%;
+  width: 100%;
+  
+  margin:auto;
 }
-.my-list{
-  padding-left: 16px;
+.containero img {
+  
+  max-width: 100%;
+  max-height: 100%;
+}
+#main{
+  width: 70%;
+  float: left;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+#sidebar{
+  width:30%;
+  float: right;
+  
+  background:#333;
+  color:#fff;
+  padding:10px;
+  box-sizing: border-box;
 }
