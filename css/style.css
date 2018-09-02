@@ -41,6 +41,8 @@ body {
   color: #fff;
 }
 
+
+
 #showcase {
   background-image: url('../images/tienda.jpg');
   margin-bottom: 30px;
@@ -50,26 +52,9 @@ body {
   background-size: cover;
   height: 400px;
   width: 100%;
-  /* object-fit: cover;
-  min-height: 400px;
-  margin-bottom: 30px; */
-  /* display: block;
-  width: 100%;
-  height: 100%; */ */
-  /* object-fit: cover; */
+  
 }
 
-/* .containero {
-  overflow: hidden;
-}
-
-.containero img {
-  margin-bottom: 30px;
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-} */
 
 #main {
   width: 70%;
