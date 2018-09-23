@@ -120,6 +120,13 @@ body {
  
  margin:10px; 
 }
+.wrapper >div >p {
+  text-align: center;
+}
+.wrapper >div >p >a {
+  
+  text-decoration: none;
+}
 .wrapper {
   
   display:grid;
@@ -127,3 +134,4 @@ body {
   grid-template-columns: repeat(4,1fr);
   grid-gap: 1em;
 }
+
