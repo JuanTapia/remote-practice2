@@ -128,7 +128,7 @@ body {
  margin:10px; 
 }
 
-.wrapper >div >h4,p {
+.wrapper >div >h4 {
   text-align: center;
   
 }
@@ -144,4 +144,6 @@ body {
   grid-gap: 1em;
   grid-auto-rows: minmax(100px,auto);
 }
-
+a {
+  text-decoration: none;
+}
